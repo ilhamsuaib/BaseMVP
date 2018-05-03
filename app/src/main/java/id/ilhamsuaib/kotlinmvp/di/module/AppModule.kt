@@ -7,7 +7,7 @@ import com.google.gson.GsonBuilder
 import dagger.Module
 import dagger.Provides
 import id.ilhamsuaib.kotlinmvp.BuildConfig
-import id.ilhamsuaib.kotlinmvp.domain.ApiService
+import id.ilhamsuaib.kotlinmvp.data.remote.ApiService
 import id.ilhamsuaib.kotlinmvp.di.scope.ApplicationContext
 import io.reactivex.schedulers.Schedulers
 import okhttp3.Cache
